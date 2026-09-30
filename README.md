@@ -1,8 +1,22 @@
-# omofon-portfolio
-Frontend Developer Portfolio
+# Favour Mfon — Portfolio
 
-## Running the code
+Personal portfolio of Favour Mfon, Full-Stack Software Engineer (NestJS, TypeScript, PostgreSQL, Flutter, Docker, Terraform).
 
-  Run `npm i` to install the dependencies.
+Live: https://obongdevid.github.io
 
-  Run `npm run dev` to start the development server.
+## Stack
+
+React, TypeScript, Vite, Tailwind CSS. The contact form stores messages in Supabase.
+
+## Running locally
+
+```
+npm i
+npm run dev
+```
+
+## Build and deploy
+
+`npm run build` outputs to `build/`. Pushes to `main` are built and published to GitHub Pages by `.github/workflows/deploy.yml` (repo Settings → Pages → Source: GitHub Actions).
+
+The downloadable PDF lives at `public/Favour_Mfon_Portfolio.pdf` and needs regenerating when content changes.
