@@ -117,18 +117,18 @@ export function Hero() {
           </div>
 
           {/* Right Image */}
-          <div className="flex justify-center md:justify-end relative z-10">
-            <div className="animate-float relative">
-              <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary-button/40 to-purple-500/30 blur-2xl -z-10" />
+          {/* <div className="flex justify-center md:justify-end relative z-10"> */}
+            {/* <div className="animate-float relative"> */}
+              {/* <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary-button/40 to-purple-500/30 blur-2xl -z-10" /> */}
               {/* <img
                 src={developerImg}
                 alt="Favour Mfon"
                 className="w-full max-w-md h-auto rounded-3xl shadow-2xl"
               /> */}
               {/* Decorative frame */}
-              <div className="absolute -top-4 -right-4 w-24 h-24 border-t-4 border-r-4 border-gray-300 dark:border-gray-700 rounded-tr-lg"></div>
-            </div>
-          </div>
+              {/* <div className="absolute -top-4 -right-4 w-24 h-24 border-t-4 border-r-4 border-gray-300 dark:border-gray-700 rounded-tr-lg"></div> */}
+            {/* </div> */}
+          {/* </div> */}
         </div>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Social Links */}
