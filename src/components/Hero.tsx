@@ -119,7 +119,7 @@ export function Hero() {
           {/* Right Image */}
           <div className="flex justify-center md:justify-end relative z-10">
             <div className="animate-float relative">
-              <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary-button/40 to-purple-500/30 blur-2xl -z-10" />
+              {/* <div className="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary-button/40 to-purple-500/30 blur-2xl -z-10" /> */}
               {/* <img
                 src={developerImg}
                 alt="Favour Mfon"
