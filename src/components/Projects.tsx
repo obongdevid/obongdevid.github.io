@@ -44,6 +44,14 @@ const projects: {
     image: shorelineImg,
     links: [{ label: "Live Demo", url: "https://shoreline-demo.netlify.app" }],
   },
+  {
+    title: "Coinwise Solution Technologies",
+    role: "Backend Developer",
+    description:
+      "A financial platform for managing accounts, transactions and balances with a clear, auditable record of every movement of money. I was responsible for the CQRS architecture, separating write commands from read queries so the system stays consistent, scalable and easy to trace.",
+    stack: ["NestJS", "TypeScript", "CQRS"],
+    links: [],
+  },
 ];
 
 export function Projects() {
@@ -92,7 +100,7 @@ export function Projects() {
                   ))}
                 </div>
 
-                <div className="flex gap-3 mt-auto">
+                <div className="flex gap-3 mt-auto empty:hidden">
                   {project.links.map((link, i) => (
                     <a
                       key={link.url}
