@@ -33,7 +33,7 @@ const projects: {
       "An editorial publishing platform delivering news and analysis on politics, media and current affairs. I built the systems behind content sections and articles, giving the editorial team a fast, organized way to publish.",
     stack: ["NestJS", "TypeScript", "Prisma"],
     image: eshspeaksImg,
-    links: [{ label: "Live Site", url: "https://eshspeaks.netlify.app" }],
+    links: [{ label: "Live Site", url: "https://eshspeaks-frontend.onrender.com" }],
   },
   {
     title: "Shoreline",
